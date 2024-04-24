@@ -30,7 +30,7 @@ The finalized architecture encompasses dense layers tailored for comprehensive f
 
 My proposed CNN+GRU model demonstrated a remarkable accuracy of 83.54%, showcasing a substantial improvement over the conventional LSTM model. This notable enhancement in accuracy reaffirms the effectiveness of our model in accurately discerning emotional states from speech data. Additionally, our CNN+GRU model exhibited another significant advantage in terms of training time, further emphasizing the efficiency and scalability of our approach. 
 
-Benefits of Using CNN+LSTM Model: 
+Benefits of Using CNN+GRU Model: 
 The integration of Convolutional 1D layers (CNN) with Gated Recurrent Unit (GRU) layers offers several key advantages over traditional LSTM-based models:
 
 • Spatial and Temporal Feature Learning: The CNN layers excel in capturing spatial patterns in the input data, while the GRU layers are proficient at modeling temporal dependencies. This combination allows our model to effectively capture both local and long-range features in speech signals, leading to superior emotion recognition performance.
